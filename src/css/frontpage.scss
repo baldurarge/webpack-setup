@@ -1,0 +1,80 @@
+@import 'vars';
+
+// MAIN
+
+main{
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    min-height: 100vh;
+    padding-bottom: $p-lg;
+    .landing-container{
+        position: relative;
+        padding-left: $p-xl;
+        .landing-headline{
+            align-items: flex-start;
+            height: 100%;
+
+            a{
+                margin-top: $p-md;
+            }
+        }
+        
+        .scroll-down-icon{
+            position: absolute;
+            bottom: 50px;
+            left: 0; right:0;
+            margin-left: auto; margin-right: auto;
+        }
+    }
+
+
+    .trustpilot{
+        padding-left: 25%;
+        padding-right: 25%;
+        padding-bottom: $p-md;
+        padding-top: $p-xl;
+    }
+
+
+    .first-video{
+        width: 100%;
+        padding-bottom: $p-lg;
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+        iframe{
+            border-radius: 5px;
+            width: 1080px;
+            height: 550px;
+        }
+
+        p:first-of-type{
+            margin-top:$p-sm;
+        }
+    }
+
+
+    .testimonial{
+        height: 800px;
+    }
+
+
+    .customers{
+        display: flex;
+        flex-flow: row;
+        justify-content: space-around;
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-bottom: $p-lg;
+    }
+
+    padding-bottom: 150px;
+}
+
+
+
+
+
+
